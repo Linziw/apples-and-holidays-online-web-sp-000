@@ -56,7 +56,7 @@ new_array.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_supplies.each do |season, data|
+  holiday_hash.each do |season, data|
     
     puts "#{season.to_s.capitalize!}:"
     
